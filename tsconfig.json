@@ -6,7 +6,7 @@
     "outDir": "build",
     "pretty": true,
     "noEmitOnError": true,
-    "declaration": true,
+    "declaration": false,
     "sourceMap": true,
     "inlineSources": true,
     "strict": true,
