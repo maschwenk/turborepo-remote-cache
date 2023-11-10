@@ -20,6 +20,8 @@ closeWithGrace(
   },
 )
 
+console.error('are we even here in here')
+
 app.listen({ host: '0.0.0.0', port: env.get().PORT }, (err) => {
   if (err) {
     app.log.error(err)
